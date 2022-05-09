@@ -15,7 +15,7 @@ public class ApiController {
     }
 
     //JSON
-    // req -> object mapper -> object -> method -> object -> object mappler -> json -> response
+    // req -> object mapper -> object -> method -> object -> object mapper -> json -> response
     @PostMapping("/json")
     public User json(@RequestBody User user) {
         return user;
