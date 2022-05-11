@@ -21,6 +21,7 @@ public class ApiController {
         return user;
     }
 
+    //202
     @PutMapping("/put")
     public ResponseEntity<User> put(@RequestBody User user) {
         return ResponseEntity.status(HttpStatus.CREATED).body(user);
